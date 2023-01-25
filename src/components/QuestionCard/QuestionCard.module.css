@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    background: var(--gradient-main);
+    padding: 1px;
+    border-radius: 0.5rem;
+    max-width: 38rem;
+    margin-bottom: 1.5rem;
+    clip-path: var(--left-top-right-bottom-slice);
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 1rem 1.5rem ;
+    align-self: flex-end;
+    border-radius: 0.5rem;
+    background: var(--color-grey-bg);
+    clip-path: var(--left-top-right-bottom-slice);
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.description {
+    margin-top: 1rem;
+}

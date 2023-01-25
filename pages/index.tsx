@@ -4,6 +4,7 @@ import {
 	Header,
 	Steps,
 	Technologies,
+	FAQ,
 } from '../src/sections';
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
 				<About />
 				<Technologies />
 				<Steps />
+				<FAQ />
 			</main>
 		</>
 	);
