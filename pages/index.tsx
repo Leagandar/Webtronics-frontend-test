@@ -6,6 +6,7 @@ import {
 	Technologies,
 	FAQ,
 	Review,
+	Gallery,
 } from '../src/sections';
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
 				<Steps />
 				<FAQ />
 				<Review />
+				<Gallery />
 			</main>
 		</>
 	);
