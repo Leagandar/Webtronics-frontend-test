@@ -1,5 +1,8 @@
 import Head from 'next/head';
-import { Header } from '../src/sections';
+import {
+	About,
+	Header,
+} from '../src/sections';
 
 export default function Home() {
 	return (
@@ -19,6 +22,7 @@ export default function Home() {
 			</Head>
 			<main className="layout">
 				<Header />
+				<About />
 			</main>
 		</>
 	);

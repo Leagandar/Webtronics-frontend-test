@@ -1,0 +1,80 @@
+.section {
+    margin-bottom: 3rem;
+    position: relative;
+    top: -8rem;
+}
+
+.header {
+    text-align: center;
+    margin: 3.5rem 0;
+}
+
+.frontImage {
+    margin-left: 6.25rem;
+}
+
+.description{
+    max-width: 30.3rem;
+    margin-bottom: 5.1rem;
+}
+
+.mentorsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mentorsCardsContainer{
+    display: flex;
+    position: relative;
+    top: -3rem;
+}
+
+.mentorsContainerTitle{
+    margin-bottom: 0.75rem;
+}
+
+.mentorCard {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1540px) {
+    .content {
+      flex-direction: column;
+    }
+
+    .description{
+        align-self: center;
+    }
+
+    .frontImage{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .mentorsTree {
+      display: none;
+    }
+
+    .mentorCard {
+        margin-top: 3.2rem;
+    }
+
+    .mentorsCardsContainer{
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .mentorsCardsContainer{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .description{
+        text-align: center;
+    }
+}

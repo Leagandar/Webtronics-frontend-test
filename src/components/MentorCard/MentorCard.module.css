@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.8rem 4.6rem 0.8rem;
+    margin-top: 3.2rem;
+}
+
+.avatar{
+    margin-bottom: 1rem;
+}
+
+.title {
+    margin-bottom: 0.25rem;
+}
+
+.description {
+    max-width: 11.5rem;
+}
+
+@media screen and (max-width: 720px) {
+    .container {
+        padding: 0 0.8rem 2.5rem 0.8rem
+    }
+}
