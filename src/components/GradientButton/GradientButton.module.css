@@ -1,0 +1,25 @@
+.button {
+    background: var(--linear-2);
+    border-radius: 8px;
+    color: var(--color-primary-100);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    height: 4.5rem;
+}
+
+.button:hover {
+    color: var(--color-primary-80);
+}
+
+.button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button:active {
+    color: var(--color-clean);
+}

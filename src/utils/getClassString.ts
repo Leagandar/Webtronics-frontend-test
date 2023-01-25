@@ -1,0 +1,1 @@
+export const getClassString = (classList: (string | undefined)[]) => classList.join(' ');
