@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 1.5px;
+    background: var(--gradient-main);
+    border-radius: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.button {
+    background-color: var(--color-grey-bg);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    color: var(--color-clean);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font: var(--font-inter)
+}
+
+.button:hover {
+    color: var(--color-primary-80);
+}
+
+.button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button:active {
+    color: var(--color-clean);
+}

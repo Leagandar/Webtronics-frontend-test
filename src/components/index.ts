@@ -4,3 +4,6 @@ export { default as MentorCard } from './MentorCard/MentorCard';
 export { default as TechnologyCard } from './TechnologyCard/TechnologyCard';
 export { default as StepCard } from './StepCard/StepCard';
 export { default as QuestionCard } from './QuestionCard/QuestionCard';
+export { default as ReviewGallery } from './ReviewGallery/ReviewGallery';
+export { default as Slider } from './Slider/Slider';
+export { default as ArrowButton } from './ArrowButton/ArrowButton';

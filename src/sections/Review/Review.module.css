@@ -1,0 +1,8 @@
+.section {
+    margin-bottom: 12rem;
+    flex-direction: column;
+}
+
+.title{
+    margin-bottom: 3rem;
+}

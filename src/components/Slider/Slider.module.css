@@ -1,0 +1,79 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftArrowButton{
+    margin-right: 1.5rem;
+}
+
+.counter{
+    display: flex;
+}
+
+.currentCounter {
+    margin-right: 4px;
+}
+
+.photos {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+
+.review {
+    display: flex;
+    padding: 1.5px;
+    overflow: hidden;
+    border-radius: 1rem;
+    max-width: 11.5rem;
+    background: var(--gradient-main);
+    clip-path: var(--bottom-right-photo-slice-small)
+}
+
+.review img {
+    min-height: 100%;
+    clip-path: var(--bottom-right-photo-slice-small)
+}
+
+.activeReview {
+    order: -1;
+    max-width: 42.5rem;
+    clip-path: var(--bottom-right-photo-slice-big)
+}
+
+.activeReview img {
+    clip-path: var(--bottom-right-photo-slice-big)
+}
+
+.avatar {
+    border-radius: 16px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.description {
+    margin-top: 0.2rem
+}
+
+.buttons {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .photos {
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+
+    .slider{
+        width: 100%;
+    }
+}
