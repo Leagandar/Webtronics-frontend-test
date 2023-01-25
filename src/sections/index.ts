@@ -6,3 +6,4 @@ export { default as FAQ } from './FAQ/FAQ';
 export { default as Review } from './Review/Review';
 export { default as Gallery } from './Gallery/Gallery';
 export { default as Contacts } from './Contacts/Contacts';
+export { default as Footer } from './Footer/Footer';
