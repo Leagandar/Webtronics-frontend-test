@@ -2,6 +2,7 @@ import Head from 'next/head';
 import {
 	About,
 	Header,
+	Steps,
 	Technologies,
 } from '../src/sections';
 
@@ -25,6 +26,7 @@ export default function Home() {
 				<Header />
 				<About />
 				<Technologies />
+				<Steps />
 			</main>
 		</>
 	);

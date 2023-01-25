@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    background: var(--gradient-main);
+    padding: 1px;
+    border-radius: 0.5rem;
+    max-height: 11.9rem;
+    max-width: 29.6rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background: var(--color-grey-bg);
+    padding: 1.5rem;
+    min-width: 23rem;
+    row-gap: 1rem;
+}
+
+.description {
+    color: var(--color-text-40)
+}

@@ -1,0 +1,82 @@
+.section {
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 11.25rem;
+}
+
+.title {
+    margin-bottom: 4.6rem;
+}
+
+.stepsLine {
+    position: absolute;
+    top: 15rem;
+}
+
+.groupWrapper {
+    display: flex;
+    margin-bottom: 1.25rem
+}
+
+.leftFrame {
+    position: relative;
+    left: -8.125rem;
+    bottom: 1.15rem;
+}
+
+.rightFrame {
+    position: relative;
+    right: -8.125rem;
+    bottom: 1.15rem;
+} 
+
+.leftStep, .rightStep {
+    position: relative;
+    display: flex;
+}
+
+.rightStep {
+    margin-top: 7.75rem;
+}
+
+@media screen and (max-width: 1600px) {
+	.stepsLine {
+        top: 14rem;
+	}
+
+    .groupWrapper {
+        margin-bottom: 1.4rem
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.stepsLine {
+        display: none;
+	}
+
+    .leftStep {
+        left: 7rem;
+    }
+
+    .rightStep {
+        margin-top: 0;
+        right: 7rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .leftFrame, .rightFrame {
+       display: none;
+    }
+
+    .leftStep, .rightStep {
+        left: 0;
+        right: 0;
+        margin-bottom: 1.4rem;
+    }
+
+    .groupWrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+	}
+}
