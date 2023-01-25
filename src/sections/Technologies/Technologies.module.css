@@ -1,0 +1,23 @@
+.section {
+    flex-direction: column;
+    margin-bottom: 11.5rem;
+}
+
+.title {
+    max-width: 34rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.description {
+    max-width: 27rem;
+    text-align: center;
+    margin-bottom: 3.4rem;
+}
+
+.technologiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.56rem;
+}

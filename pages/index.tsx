@@ -2,6 +2,7 @@ import Head from 'next/head';
 import {
 	About,
 	Header,
+	Technologies,
 } from '../src/sections';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
 			<main className="layout">
 				<Header />
 				<About />
+				<Technologies />
 			</main>
 		</>
 	);

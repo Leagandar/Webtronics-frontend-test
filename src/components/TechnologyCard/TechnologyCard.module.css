@@ -1,0 +1,24 @@
+.wrapper {
+    background: var(--gradient-main);
+    padding: 1px;
+    border-radius: 1rem;
+    clip-path: var(--bottom-right-card-slice);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 0.625rem;
+    background-color: var(--color-grey-bg);
+    border-radius: 1rem;
+    clip-path: var(--bottom-right-card-slice);
+}
+
+.image {
+    margin-bottom: 1rem;
+}
+
