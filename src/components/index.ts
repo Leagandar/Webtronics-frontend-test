@@ -7,3 +7,7 @@ export { default as QuestionCard } from './QuestionCard/QuestionCard';
 export { default as ReviewGallery } from './ReviewGallery/ReviewGallery';
 export { default as Slider } from './Slider/Slider';
 export { default as ArrowButton } from './ArrowButton/ArrowButton';
+export { default as Input } from './Input/Input';
+export { default as SubmitForm } from './SubmitForm/SubmitForm';
+export { default as Modal } from './Modal/Modal';
+export { default as Portal } from './Portal/Portal';

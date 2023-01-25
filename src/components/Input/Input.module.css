@@ -1,0 +1,46 @@
+.input {
+  position: relative;
+  padding: 1.5px;
+  background: var(--gradient-main);
+  border-radius: 0.5rem;
+  display: flex;
+  width: 100%;
+}
+
+.input input {
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1.5rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-bg);
+}
+
+.input input::placeholder,
+.input input:hover {
+    color: var(--color-text-40);
+}
+
+.input input:active {
+  color: var(--color-clean);
+}
+
+.input input:disabled {
+  color: var(--color-border);
+}
+
+.input:has(input:disabled) {
+  border: 1px solid var(--color-border);
+  padding: 0;
+}
+
+.wrapperError{
+  background: rgba(253, 70, 70, 20%);
+  border: 1px solid var(--color-error);
+  padding: 0;
+}
+
+.input input.inputError {
+  background: rgba(253, 70, 70, 20%);
+  color: var(--color-clean);
+}

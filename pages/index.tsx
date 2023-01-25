@@ -7,6 +7,7 @@ import {
 	FAQ,
 	Review,
 	Gallery,
+	Contacts,
 } from '../src/sections';
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
 				<FAQ />
 				<Review />
 				<Gallery />
+				<Contacts />
 			</main>
 		</>
 	);

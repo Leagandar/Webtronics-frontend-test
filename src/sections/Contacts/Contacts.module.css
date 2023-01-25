@@ -1,0 +1,47 @@
+ .section {
+    margin-bottom: 9.25rem;
+    border-radius: 20px;
+    padding: 1.5px;
+    background: var(--gradient-main);
+    overflow: hidden;
+    width: 100%;
+    max-width: 87.5rem;
+    min-width: 21.25rem;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5rem 1rem;
+    border-radius: 20px;
+    background: var(--color-grey-bg);
+    min-height: 37.4rem;
+}
+
+.header {
+    margin-bottom: 1.5rem;
+}
+
+.header > h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.header > p {
+    text-align: center;
+}
+
+.modalText {
+    color: var(--color-text-40);
+    text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+    .content {
+        padding: 1rem;
+    }
+}
